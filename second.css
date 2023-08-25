@@ -1,0 +1,139 @@
+.special-offers{
+    width: 781px;
+height: 515px;
+flex-shrink: 0;
+border-radius: 84px 0px 0px 84px;
+border-top: 2px solid rgba(0, 0, 0, 0.50);
+border-bottom: 2px solid rgba(0, 0, 0, 0.50);
+border-left: 2px solid rgba(0, 0, 0, 0.50);
+background: url(https://cdn.pixabay.com/photo/2020/01/26/22/27/leaf-4796054_1280.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin-left: 195px;
+
+}
+.special{
+    width: 781px;
+height: 515px;
+flex-shrink: 0;
+border-radius: 0px 84px 84px 0px;
+border-top: 2px solid rgba(0, 0, 0, 0.50);
+border-right: 2px solid rgba(0, 0, 0, 0.50);
+border-bottom: 2px solid rgba(0, 0, 0, 0.50);
+background: rgba(217, 217, 217, 0.27);
+position: absolute;
+margin-left: 54%;
+margin-top: -28.5%;
+}
+
+.special h1{
+    width: 643px;
+height: 120px;
+text-align: center;
+color: #000;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 120.1%; /* 32.427px */
+margin-left: 10%;
+}
+.special h6{
+    width: 500px;
+    margin-left: 16%;
+    color: #000;
+text-align: center;
+font-family: Nexa;
+margin-top: -5%;
+font-size: 28px;
+font-style: normal;
+font-weight: 100;
+line-height: 120.1%; /* 32.427px */
+}
+
+.special .sus{
+    display: inline-flex;
+width: 70%;
+height: 15%;
+margin-top: 5%;
+align-items: center;
+gap: 92px;
+margin-left: 20%;
+border-radius: 50px;
+}
+.special .sus p{
+    display: flex;
+    color: rgba(0, 0, 0, 0.50);
+text-align: center;
+font-family: Nexa;
+font-size: 27px;
+font-style: normal;
+font-weight: 100;
+line-height: 120.1%; /* 32.427px */
+}
+
+.special  .sus-1{
+    display: flex;
+    width: 25%;
+    height: 12%;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 50px;
+background: #0975BB;
+position: absolute;
+margin-top: -9%;
+margin-left: 64%;
+}
+.special .sus-1 p{
+    color: #FFF;
+text-align: center;
+font-size: 27px;
+font-style: normal;
+font-weight: 900;
+line-height: 120.1%; /* 32.427px */
+}
+
+/* REsponsive for mobile  */
+@media  (max-width:1280px ){
+    .special-offers{
+        width: 781px;
+        border-radius: 84px; 
+        overflow: hidden;
+        margin-left: 2px;
+        filter: blur(100);
+    }
+    .special{
+        border-radius: 84px;
+        overflow: hidden;
+        margin-left: 2px;
+        margin-top: -40.5%;
+        
+    }
+    .special h1{
+        color: #FFF;
+    }
+    .special h6{
+        color: #FFF;
+        font-size: 25px;
+    }
+}
+
+@media (max-width:1080px) and (max-hight:2400px
+
+) {
+    .special-offers{
+        width: 450px;
+        margin-left: 2px;
+        overflow: hidden;
+
+    }
+
+    .special{
+        margin-top: -105%;
+        overflow: hidden;
+        width: 450px;
+    }
+
+    
+}
